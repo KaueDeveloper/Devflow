@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!--Meta dados-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kauê Barreto Benicio">
+    <meta name="description" content="Entre na sua conta Devflow para acompanhar ideias, projetos e discussões da comunidade de desenvolvedores.">
+    <meta name="keywords" content="Devflow, login, desenvolvedores, comunidade dev, ideias, tecnologia, programação, projetos, plataforma dev">
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600&display=swap" rel="stylesheet">
+    <!--Linkagens: CSS e JavaScript-->
+    <link rel="stylesheet" href="../styles/login.css">
+    <title>Devflow</title>
+</head>
+<body>
+    <!--Decoração do background-->
+    <div class="background">
+        <div class="blur-circle-1"></div>
+        <div class="blur-circle-2"></div>
+    </div>
+
+    <!--Aba de login-->
+    <div class="login-container">
+        <div class="login-card">
+            <!--Logo-->
+            <div class="logo"><span class="symbol">&lt;/&gt;</span><span class="name">Devflow</span></div>
+
+            <h1>Faça login</h1>
+            <p class="subtitle">Onde devs vivem, criam e se conectam</p>
+      
+            <!--Formulário de login-->
+            <form>
+                <p id="error-mensage"></p>
+                <input type="email" placeholder="Email"/>
+                <input type="password" placeholder="Senha"/>
+                <button id="btn-enter" type="submit">Entrar</button> 
+
+                <!-- Links para opções de senha e criar conta -->
+                <div class="links-container">
+                    <a href="#" class="forgot">Esqueceu sua senha?</a>
+                    <a href="#" class="create-account">Criar conta</a>
+                </div>
+
+                <!--Mensagem do rodapé da aba de login-->
+                <p class="footer-message">Feito por dev, para devs 💙</p>
+            </form>
+        </div>
+    </div>
+
+    <!--Rodapé-->
+    <footer>
+        <p id="copyright">© 2025 kaueproductions</p>
+    </footer>
+</body>
+</html>
