@@ -51,6 +51,6 @@ Esta é uma versão inicial do Devflow. Novos recursos e melhorias estão em and
 
 ---
 
-![Devflow Thumbnail](./assets/Devflow-thumb.png)
+![Devflow Thumbnail](./assets/Devflow-thumb2.png)
 
 ---
